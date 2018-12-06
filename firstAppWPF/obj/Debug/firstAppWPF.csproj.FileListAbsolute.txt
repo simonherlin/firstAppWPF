@@ -1,0 +1,15 @@
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\bin\Debug\firstAppWPF.exe.config
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\bin\Debug\firstAppWPF.exe
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\bin\Debug\firstAppWPF.pdb
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF.csprojResolveAssemblyReference.cache
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\MainWindow.g.cs
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\App.g.cs
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF_MarkupCompile.cache
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF_MarkupCompile.lref
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\MainWindow.baml
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF.g.resources
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF.Properties.Resources.resources
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF.csproj.GenerateResource.Cache
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF.csproj.CoreCompileInputs.cache
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF.exe
+C:\Users\sherlin\source\repos\firstAppWPF\firstAppWPF\obj\Debug\firstAppWPF.pdb
