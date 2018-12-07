@@ -20,12 +20,42 @@ namespace firstAppWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        delegate void MyFirstDelegate(string str);
+        event MyFirstDelegate MyFirstEvent;
+
+        Button SecondButton;
         public MainWindow()
         {
             InitializeComponent();
+            SecondButton = new Button();
+            SecondButton.Content = "It's my second button";
+            SecondButton.Click += SecondButton_click;
+            FirstStackPanel.Children.Add(SecondButton);
 
-            FirstLabel.Content = "content modify";
-            SecondLabel.Content = "Content modify !!!";
+            // equal if i call methode ItsOneMethodeItsMethode it's a lambda methode
+            MyFirstEvent += (str) =>
+            {
+                FirstLabel.Content = str;
+            };
+
+
         }
+
+        private void FirstButton_Click(object sender, RoutedEventArgs e)
+        {
+            MyFirstEvent("first button");
+        }
+
+
+        private void SecondButton_click(object sender, RoutedEventArgs e)
+        {
+            MyFirstEvent("seconde button");
+        }
+
+        private void ItsOneMethodeItsMethode(string str)
+        {
+            FirstLabel.Content = str;
+        }
+
     }
 }

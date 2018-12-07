@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:firstAppWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <StackPanel>
+    <StackPanel x:Name="FirstStackPanel">
         <Label x:Name="FirstLabel">Ceux ci est un label</Label>
         <Label x:Name="SecondLabel" Content="{Binding ElementName=FirstLabel, Path=Content, Mode=TwoWay}"></Label>
-        <Button x:Name="FirstButton">Cliquer ici</Button>
+        <Button x:Name="FirstButton" Click="FirstButton_Click">Cliquer ici</Button>
     </StackPanel>
 </Window>
